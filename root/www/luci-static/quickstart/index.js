@@ -4124,7 +4124,7 @@ var Kw = ya((Ce) => {
                       const { result: R, error: U } = G.data;
                       if ((U && x.Warning(U), R)) {
                         if (R.status == "installed")
-                          location.href = "/cgi-bin/luci/admin/services/nlbw";
+                          location.href = "/cgi-bin/luci/admin/nlbw";
                         else if (
                           confirm(
                             "\u68C0\u6D4B\u5230\u4F60\u5C1A\u672A\u5B89\u88C5\u5E26\u5BBD\u76D1\u63A7\u63D2\u4EF6,\u662F\u5426\u5B89\u88C5\uFF1F"
@@ -4136,7 +4136,7 @@ var Kw = ya((Ce) => {
                             at
                               ? (x.Success("\u5B89\u88C5\u6210\u529F"),
                                 (location.href =
-                                  "/cgi-bin/luci/admin/services/nlbw"))
+                                  "/cgi-bin/luci/admin/nlbw"))
                               : x.Warning("\u5B89\u88C5\u5931\u8D25");
                         }
                       }
